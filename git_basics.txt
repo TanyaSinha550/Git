@@ -1,0 +1,52 @@
+git status
+git log
+git config --list
+---to see the deleted ones
+git lop -p
+git log -p -3
+git log --start
+git log --pretty=oneline
+git log --pretty=short
+git log --since=2.days
+
+
+
+git init
+git add --a or git add .
+git commit -m "first commit"
+git diff
+git diff --staged
+touch .gitignore
+
+-----Only staged data to be committed not untracked changes
+git commit -a -m "only staged commiteed"
+
+git rm third.txt
+
+---To rename file
+git mv first.txt first_renamed.txt 
+
+---first.txt is put in .gitignore but it is still in untracked
+git rm --cached first.txt
+
+---to remove from git repository
+rm -rf .git
+
+git clone -b feature https://github.com/...../online.git  mygit
+
+git restore --staged first.txt
+
+-------------------------------------------------------
+
+git checkout -b develop
+
+git checkout master
+git branch
+
+git merge
+
+
+
+
+
+
